@@ -1,0 +1,341 @@
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 15px;
+}
+
+.btn-signin {
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+}
+
+.btn-signin:hover {
+    background-color: #333;
+    color: white;
+
+}
+
+.change-style {
+
+    font-family: Helvetica;
+    font-size: 28.39px;
+    font-weight: 700;
+    line-height: 36.1px;
+    text-align: center;
+
+
+}
+
+
+.nav-item {
+    position: relative;
+    right: 50%;
+    font-family: Helvetica;
+    font-size: 26.11px;
+    font-weight: 400;
+    line-height: 31.18px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+@media screen and (max-width:800px) {
+    .nav-item a {
+        position: relative;
+        left: 90px;
+    }
+
+    .btn-signin {
+        position: relative;
+        left: 10px;
+    }
+}
+
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    line-height: 80px;
+}
+
+.hero-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 91.99px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.hero-text {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    font-family: Helvetica Light;
+    font-size: 30.17px;
+    font-weight: 400;
+    line-height: 39.53px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.btn-cta {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+}
+
+.btn-cta:hover {
+    background-color: #333;
+}
+
+.hero-image {
+    max-width: 100%;
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        background-color: #F0F0F0;
+        padding: 20px;
+    }
+    
+    .feature {
+        width: 30%;
+        border: 1px solid #ccc;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .feature img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .feature h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .feature p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+      }
+      
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px;
+        background-color: #f0f0f0;
+      }
+      
+      .illustration {
+        flex: 1;
+        text-align: center;
+      }
+      
+      .illustration img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      .text {
+        flex: 1;
+        padding: 20px;
+
+      }
+      
+      .text h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      
+      .text p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      
+      .text a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      
+      .text a:hover {
+        background-color: #0056b3;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+      }
+      
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      .feature {
+        flex: 1;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f0f0f0;
+        text-align: center;
+      }
+      
+      .number {
+        font-size: 36px;
+        font-weight: bold;
+        color: #007bff;
+      }
+      
+      .feature h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      .feature p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+      }
+      
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      
+      .signup-banner {
+        background-color: #f0f0f0;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .bold-text {
+        font-weight: bold;
+      }
+      
+      .username {
+        font-size: 14px;
+        color: #999;
+      }
+      
+      .input-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+      
+      .input-container input {
+        padding: 10px;
+        width: 70%;
+      }
+      
+      .input-container button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+      
+      footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+        }
+        
+        
+        
+        footer .logo-content span {
+            font-family: Helvetica;
+            font-size: 32.88px;
+            font-weight: 700;
+            line-height: 20.11px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            position: relative;
+            top: 10px;
+            
+        }
+        
+        
+        footer .logo-content p{
+            width: 30%;
+            padding-top: 10px;
+        }
+        footer .logo-content h1{
+            
+        font-size: 20px;
+        font-family: Helvetica;
+        
+        
+        }
+        
+        .menu-links{
+            display: flex;
+            padding-top: 30px;
+            
+        }
+        
+        
+        
+        .menu-links ul {
+        
+        padding: 0 40px;
+        }
+        .menu-links ul li{
+            list-style-type:none;
+            line-height: 30px;
+            
+        }
+    
+    
+    
+    
+    
